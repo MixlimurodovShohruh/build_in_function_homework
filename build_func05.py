@@ -9,5 +9,6 @@ def main(n, x):
     Returns:
         int: the value of the expression
     """
-    n=(pow(x,n)+pow(n,x))
-    return n, x
+    answer=(pow(x,n)+pow(n,x))
+    return answer
+print(main(3,6))

@@ -9,4 +9,7 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    z=3*pow(y,0.5)+pow(x,0.6666666667)
+    answer=round(z,2)
+    return answer
+print(main(8, 4))

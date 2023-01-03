@@ -10,4 +10,4 @@ def main(n, x):
         int: the value of the expression
     """
     n=(pow(x,n)+pow(n,x))
-    return n
+    return n, x
